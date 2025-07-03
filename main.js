@@ -11,6 +11,7 @@ function createMainWindow() {
       nodeIntegration: true,
       contextIsolation: false,
     },
+    autoHideMenuBar: true,
   });
 
   // Create the start URL
