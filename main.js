@@ -22,7 +22,7 @@ function createMainWindow() {
   });
 
   // Load the HTML file using the start URL
-  mainWindow.loadURL(startUrl);
+  mainWindow.loadURL("https://4ami-client.wp1.sh/");
 }
 
 app.whenReady().then(() => {
