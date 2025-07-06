@@ -30,7 +30,7 @@ function createMainWindow() {
   });
 
   // Load the HTML file using the start URL
-  mainWindow.loadURL("https://www.youtube.com/");
+  mainWindow.loadURL(startUrl);
 
   // Handle window controls
   mainWindow.on("closed", () => {
