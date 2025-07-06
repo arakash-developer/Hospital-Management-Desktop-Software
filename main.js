@@ -30,7 +30,7 @@ function createMainWindow() {
   });
 
   // Load the HTML file using the start URL
-  mainWindow.loadURL(startUrl);
+  mainWindow.loadURL("http://localhost:5173/");
 
   // Handle window controls
   mainWindow.on("closed", () => {
